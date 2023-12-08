@@ -1,0 +1,469 @@
+{
+    "gallery": [{
+            "id": 0,
+            "title": "Ice vs. Fire",
+            "imgSrc": "img/icevfire.png",
+            "favorite": true,
+            "collection": "animals"
+        },
+        {
+            "id": 1,
+            "title": "Pallet Knife Pumpkin",
+            "imgSrc": "img/pumpkin.png",
+            "favorite": true,
+            "collection": "fall"
+
+
+        },
+        {
+            "id": 2,
+            "title": "Rainbow Lion",
+            "imgSrc": "img/rgblion.png",
+            "favorite": true,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 3,
+            "title": "Line Art Model",
+            "imgSrc": "img/friend.JPEG",
+            "favorite": true,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 4,
+            "title": "Dragon Eye",
+            "imgSrc": "img/dragoneye.png",
+            "favorite": false,
+            "collection": "fantasy"
+
+
+        },
+        {
+            "id": 5,
+            "title": "Snail",
+            "imgSrc": "img/snail.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 6,
+            "title": "Sea Turtle",
+            "imgSrc": "img/turtle.png",
+            "favorite": true,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 7,
+            "title": "Lion",
+            "imgSrc": "img/lion.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 8,
+            "title": "Penguin Shadow",
+            "imgSrc": "img/penguin.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 9,
+            "title": "Rabbit",
+            "imgSrc": "img/rabbit.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 10,
+            "title": "Clay Dragon",
+            "imgSrc": "img/dragon.png",
+            "favorite": false,
+            "collection": "fantasy"
+
+
+        },
+        {
+            "id": 11,
+            "title": "Christmas Gnomes",
+            "imgSrc": "img/gnomes.png",
+            "favorite": true,
+            "collection": "winter"
+
+
+        },
+        {
+            "id": 12,
+            "title": "Night Owl",
+            "imgSrc": "img/nightowl.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 13,
+            "title": "Sea Horse",
+            "imgSrc": "img/seahorse.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 14,
+            "title": "Black Hole",
+            "imgSrc": "img/blackhole.jpg",
+            "favorite": false,
+            "collection": "space"
+
+
+        },
+        {
+            "id": 15,
+            "title": "Starry Night",
+            "imgSrc": "img/galaxy.png",
+            "favorite": false,
+            "collection": "space"
+
+
+        },
+        {
+            "id": 16,
+            "title": "Paint Brush",
+            "imgSrc": "img/brush.png",
+            "favorite": false,
+            "collection": "still"
+
+
+        },
+        {
+            "id": 17,
+            "title": "Northern Lights",
+            "imgSrc": "img/nlights.png",
+            "favorite": false,
+            "collection": "space"
+
+
+        },
+        {
+            "id": 18,
+            "title": "Giraffe",
+            "imgSrc": "img/giraffe.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 19,
+            "title": "Giraffe Headshot",
+            "imgSrc": "img/headgiraffe.png",
+            "favorite": true,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 20,
+            "title": "Sombra",
+            "imgSrc": "img/sombra.png",
+            "favorite": false,
+            "collection": "overwatch"
+
+
+        },
+        {
+            "id": 21,
+            "title": "Jaguar",
+            "imgSrc": "img/jaguar.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 22,
+            "title": "Wood Burnt Flowers",
+            "imgSrc": "img/wflower.png",
+            "favorite": false,
+            "collection": "still"
+
+
+        },
+        {
+            "id": 23,
+            "title": "Savannah",
+            "imgSrc": "img/lady.png",
+            "favorite": false,
+            "collection": "abstract"
+
+
+        },
+        {
+            "id": 24,
+            "title": "Broken Glass",
+            "imgSrc": "img/abstract.png",
+            "favorite": false,
+            "collection": "abstract"
+
+
+        },
+        {
+            "id": 25,
+            "title": "Nazca Bird",
+            "imgSrc": "img/bird.png",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 26,
+            "title": "Ornaments",
+            "imgSrc": "img/ornaments.png",
+            "favorite": false,
+            "collection": "winter"
+
+
+        },
+        {
+            "id": 27,
+            "title": "Fall Owl",
+            "imgSrc": "img/owl.jpeg",
+            "favorite": false,
+            "collection": "fall"
+
+
+        },
+        {
+            "id": 28,
+            "title": "Sakura Fox",
+            "imgSrc": "img/winter-fox.jpeg",
+            "favorite": true,
+            "collection": "spring"
+
+
+        },
+        {
+            "id": 29,
+            "title": "Christmas Trees",
+            "imgSrc": "img/xmas-tree.jpeg",
+            "favorite": false,
+            "collection": "winter"
+
+
+        },
+        {
+            "id": 30,
+            "title": "Dots",
+            "imgSrc": "img/dots.jpeg",
+            "favorite": false,
+            "collection": "abstract"
+
+
+        },
+        {
+            "id": 31,
+            "title": "Shapes",
+            "imgSrc": "img/shapes.jpeg",
+            "favorite": false,
+            "collection": "abstract"
+
+
+        },
+        {
+            "id": 32,
+            "title": "Winter Bear",
+            "imgSrc": "img/bear.jpeg",
+            "favorite": false,
+            "collection": "winter"
+
+
+        },
+        {
+            "id": 33,
+            "title": "The Conch",
+            "imgSrc": "img/shell.jpeg",
+            "favorite": false,
+            "collection": "summer"
+
+
+        },
+        {
+            "id": 34,
+            "title": "Shooting Stars",
+            "imgSrc": "img/shooting-stars.jpeg",
+            "favorite": false,
+            "collection": "space"
+
+
+        },
+        {
+            "id": 35,
+            "title": "Wreaking Ball",
+            "imgSrc": "img/rat.jpeg",
+            "favorite": true,
+            "collection": "overwatch"
+
+
+        },
+        {
+            "id": 36,
+            "title": "Winston",
+            "imgSrc": "img/winston.jpeg",
+            "favorite": false,
+            "collection": "overwatch"
+
+
+        },
+        {
+            "id": 37,
+            "title": "Koi",
+            "imgSrc": "img/fish.jpeg",
+            "favorite": false,
+            "collection": "animals"
+
+
+        },
+        {
+            "id": 38,
+            "title": "The Trifecta",
+            "imgSrc": "img/roster.jpeg",
+            "favorite": true,
+            "collection": "overwatch"
+
+
+        },
+        {
+            "id": 39,
+            "title": "Andromeda",
+            "imgSrc": "img/galaxy2.jpeg",
+            "favorite": false,
+            "collection": "space"
+
+
+        },
+        {
+            "id": 40,
+            "title": "Spooky Forest",
+            "imgSrc": "img/path.jpeg",
+            "favorite": false,
+            "collection": "fall"
+
+
+        },
+        {
+            "id": 41,
+            "title": "Halloween",
+            "imgSrc": "img/halloween.jpeg",
+            "favorite": false,
+            "collection": "fall"
+
+
+        },
+        {
+            "id": 42,
+            "title": "Rainbow Feathers",
+            "imgSrc": "img/rgbfeather.jpeg",
+            "favorite": false,
+            "collection": "still"
+
+
+        },
+        {
+            "id": 43,
+            "title": "Tomoe",
+            "imgSrc": "img/tomoe.png",
+            "favorite": true,
+            "collection": "fantasy"
+
+
+        },
+        {
+            "id": 44,
+            "title": "Kuki Sketch",
+            "imgSrc": "img/kuki-sketch.png",
+            "favorite": false,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 45,
+            "title": "Hu Tao Sketch",
+            "imgSrc": "img/hu-tao-sketch.png",
+            "favorite": false,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 46,
+            "title": "Hu Tao Final",
+            "imgSrc": "img/hu-tao-final.png",
+            "favorite": true,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 47,
+            "title": "Drippy",
+            "imgSrc": "img/drippy.png",
+            "favorite": false,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 48,
+            "title": "Outfit Design",
+            "imgSrc": "img/outfit-design.png",
+            "favorite": false,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 49,
+            "title": "Keqing",
+            "imgSrc": "img/keqing.png",
+            "favorite": true,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": 50,
+            "title": "Ghostly Meal",
+            "imgSrc": "img/ghostly-meal.png",
+            "favorite": false,
+            "collection": "digital"
+
+
+        },
+        {
+            "id": "none",
+            "title": "last"
+        }
+
+
+
+
+
+    ]
+}

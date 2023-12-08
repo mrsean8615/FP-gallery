@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="js/cycle-center.js"></script>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+
+
+
+
+    <script>
+        getGallery(0);
+        getFavorites();
+        $(document).ready(function() {
+            $('.container').tabs({
+                show: 'fadeIn',
+                hide: 'fadeOut',
+                collapsible: true
+
+            });
+
+            var hash = location.hash;
+            if (hash) {
+                $('.container').tabs('load', hash);
+            }
+        });
+
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-container" class="cycle-slideshow" data-cycle-center-horz=true data-cycle-center-vert=true data-cycle-fx=scrollHorz data-cycle-speed="1000">
+            <img src="img/hu-tao-final.png" alt="">
+            <img src="img/icevfire.png" alt="">
+            <img src="img/keqing.png" alt="">
+            <img src="img/rat.jpeg" alt="">
+            <img src="img/winston.jpeg" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <ul id="tab">
+            <li><a id="link1" href="#panel1">Gallery</a></li>
+            <li><a id="link2" href="#panel2">Collections</a></li>
+            <li><a id="link3" href="#panel3">About the Artist</a></li>
+            <li><a id="link4" href="#panel4">Favorites</a></li>
+
+        </ul>
+        <div id="panel1">
+            <h3 class="title">Gallery</h3>
+            <div class="gallery-header">
+                <input class="search-bar" name="search" id="search" placeholder="Search Art" onkeypress="search();">
+                <button type="button" class="gallery-button" onclick="getGallery(0, 'html');">View All</button>
+            </div>
+            <div class="gallery-wrapper">
+                <div class="gallery-container" id="gallery">
+
+                </div>
+                <button id="load-more">Load More</button>
+                <button onclick="topFunction()" id="upBtn" title="Go to top"><img src="img/up.png"></button>
+
+
+
+
+            </div>
+        </div>
+        <div id="panel2">
+            <h3 class="title">Collections</h3>
+            <div class="drop-container">
+                <select class="dropdown">
+                    <option onclick="getCollection(this)">Winter</option>
+                    <option onclick="getCollection(this)">Fall</option>
+                    <option onclick="getCollection(this)">Overwatch</option>
+                    <option onclick="getCollection(this)">Animals</option>
+                    <option onclick="getCollection(this)">Digital</option>
+                    <option onclick="getCollection(this)">Fantasy</option>
+                    <option onclick="getCollection(this)">Space</option>
+                    <option onclick="getCollection(this)">Still</option>
+                    <option onclick="getCollection(this)">Spring</option>
+                    <option onclick="getCollection(this)">Summer</option>
+                    <option onclick="getCollection(this)">Abstract</option>
+
+
+
+                </select>
+            </div>
+            <div class="collect-container">
+                <div class="gallery-container collect">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div id="panel3">
+            <div class="about">
+                <h3 class="title">About the Artist</h3>
+                <div class="underline"></div>
+                <p>My name is Grace Payne. I got into art when I was around 8 years old. I enjoy many types of art, but oil painting is by far my favorite. As you can see from the gallery and collections, I really enjoy drawing and painting animals. I hope
+                    you like my gallery!</p>
+                <img src="img/icevfire.png">
+            </div>
+
+
+
+        </div>
+        <div id="panel4">
+            <h3 class="title">Artist Favorites</h3>
+            <div class="gallery-wrapper">
+                <div class="gallery-container favorites"></div>
+            </div>
+
+
+
+
+        </div>
+        <div class="expand">
+            <button onclick="destroy()">X</button>
+        </div>
+
+</body>
+
+
+</html>
