@@ -14,6 +14,7 @@ function httpRequest() {
     }
     return xhttp;
 }
+
 function loadMore() {
 
 };
@@ -24,7 +25,7 @@ $(document).ready(function() {
         x += 10;
         getGallery(x, 'append');
     });
-  });
+});
 
 function getGallery(x, type) {
     var response = '';
@@ -33,20 +34,20 @@ function getGallery(x, type) {
             $.each(data, function(key, value) {
                 var y = 0;
                 $.each(value, function(index, stuff) {
-                    if(value[x + y].title != "last") {
-                        if(index + x < 10 + x) {
+                    if (value[x + y].title != "last") {
+                        if (index + x < 10 + x) {
                             response += '<div class="gallery-item">';
-                            response += '<img loading="lazy" class="gimg lazy" onclick="details(this)" src="' + value[x + y].imgSrc + '">';
+                            response += '<img loading="lazy" alt="gallery image ' + x + y + '" class="gimg lazy" onclick="details(this)" src="' + value[x + y].imgSrc + '">';
                             response += '<div class="over">' + value[x + y].title + '</div>';
                             response += '</div>';
                             y += 1;
-                        } 
+                        }
                     } else {
                         $('#load-more').css('display', 'none');
                     }
                 });
             });
-            if(type === 'html') {
+            if (type === 'html') {
                 $('#gallery').html(response);
             } else {
                 $('#gallery').append(response);
@@ -75,7 +76,7 @@ function getFavorites() {
                 $.each(value, function(index, stuff) {
                     if (stuff.favorite == true) {
                         response += '<div class="gallery-item">';
-                        response += '<img loading="lazy" class="gimg lazy" onclick="details(this)" src="' + stuff.imgSrc + '">';
+                        response += '<img loading="lazy" class="gimg lazy" alt="favorite images" onclick="details(this)" src="' + stuff.imgSrc + '">';
                         response += '<div class="over">' + stuff.title + '</div>';
                         response += '</div>';
                     }
@@ -150,7 +151,7 @@ function getCollection(element) {
             for (x = 0; x < jsonObj.gallery.length; x++) {
                 if (e == jsonObj.gallery[x].collection) {
                     response += '<div class="gallery-item">';
-                    response += '<img loading="lazy" class="gimg lazy" onclick="details(this)" src="' + jsonObj.gallery[x].imgSrc + '">';
+                    response += '<img loading="lazy" class="gimg lazy" alt="collection images" onclick="details(this)" src="' + jsonObj.gallery[x].imgSrc + '">';
                     response += '<div class="over">' + jsonObj.gallery[x].title + '</div>';
                     response += '</div>';
                 }

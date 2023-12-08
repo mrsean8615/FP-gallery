@@ -14,7 +14,6 @@
     --gray-background: #F4F5F6;
 }
 
-
 body {
     color: black;
     background-color: #F4F5F6;
@@ -234,6 +233,7 @@ a:hover {
     height: 35px;
     margin: 10px auto;
 }
+
 .gallery-button:hover {
     background-color: var(--accent);
 }
@@ -287,6 +287,7 @@ a:hover {
 .about h3 {
     grid-column: span 2;
 }
+
 @media (max-width: 1000px) {
     .gallery-header button {
         width: 50%;
@@ -297,9 +298,9 @@ a:hover {
     #load-more {
         width: 100%;
     }
+}
 
-  }
-  @media (max-width: 700px) {
+@media (max-width: 700px) {
     #tab li {
         display: flex;
         flex-wrap: wrap;
@@ -313,9 +314,9 @@ a:hover {
         height: auto;
         width: 75%;
     }
-  }
+}
 
-  #load-more {
+#load-more {
     width: 100%;
     padding: 1em;
     margin-top: 1em;
@@ -326,9 +327,21 @@ a:hover {
     height: 75px;
     border: none;
     font-size: 1.4em;
-  }
-  #load-more:hover {
-    background-color: var(--accent);
-  }
+}
 
- 
+#load-more:hover {
+    background-color: var(--accent);
+}
+
+footer {
+    height: 100px;
+    background-color: #121212;
+    color: white;
+    bottom: 0;
+    font-size: large;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+}

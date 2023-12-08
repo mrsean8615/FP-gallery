@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Gallery</title>
+    <title>Personal Gallery</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, javascript">
+    <meta name="description" content="A personal web gallery">
+    <meta name="author" content="Sean Payne">
     <link rel="shortcut icon" href="#">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/cycle2.js"></script>
-    <script type="text/javascript" src="js/cycle-center.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/cycle2.js"></script>
+    <script src="js/cycle-center.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG033V321W"></script>
 
 
 
@@ -17,7 +22,8 @@
 
 
 
-    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
     <link type="text/css" href="css/style.css" rel="stylesheet">
 
 
@@ -46,27 +52,42 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GG033V321W');
+    </script>
 
 </head>
+
 
 <body>
     <header>
         <div id="header-container" class="cycle-slideshow" data-cycle-center-horz=true data-cycle-center-vert=true data-cycle-fx=scrollHorz data-cycle-speed="1000">
-            <img src="img/hu-tao-final.png" alt="">
-            <img src="img/icevfire.png" alt="">
-            <img src="img/keqing.png" alt="">
-            <img src="img/rat.jpeg" alt="">
-            <img src="img/winston.jpeg" alt="">
+            <img src="img/hu-tao-final.png" alt="hu-tao">
+            <img src="img/icevfire.png" alt="ice and fire">
+            <img src="img/keqing.png" alt="keqing">
+            <img src="img/rat.jpeg" alt="rat">
+            <img src="img/winston.jpeg" alt="monkey">
         </div>
     </header>
-    <div class="container">
-        <ul id="tab">
-            <li><a id="link1" href="#panel1">Gallery</a></li>
-            <li><a id="link2" href="#panel2">Collections</a></li>
-            <li><a id="link3" href="#panel3">About the Artist</a></li>
-            <li><a id="link4" href="#panel4">Favorites</a></li>
 
-        </ul>
+    <div class="container">
+        <nav>
+            <ul id="tab">
+                <li><a id="link1" href="#panel1">Gallery</a></li>
+                <li><a id="link2" href="#panel2">Collections</a></li>
+                <li><a id="link3" href="#panel3">About the Artist</a></li>
+                <li><a id="link4" href="#panel4">Favorites</a></li>
+
+            </ul>
+        </nav>
+
         <div id="panel1">
             <h3 class="title">Gallery</h3>
             <div class="gallery-header">
@@ -78,7 +99,7 @@
 
                 </div>
                 <button id="load-more">Load More</button>
-                <button onclick="topFunction()" id="upBtn" title="Go to top"><img src="img/up.png"></button>
+                <button onclick="topFunction()" id="upBtn" title="Go to top"><img src="img/up.png" alt="up arrow"></button>
 
 
 
@@ -119,7 +140,7 @@
                 <div class="underline"></div>
                 <p>My name is Grace Payne. I got into art when I was around 8 years old. I enjoy many types of art, but oil painting is by far my favorite. As you can see from the gallery and collections, I really enjoy drawing and painting animals. I hope
                     you like my gallery!</p>
-                <img src="img/icevfire.png">
+                <img src="img/icevfire.png" alt="ice and fire">
             </div>
 
 
@@ -138,7 +159,11 @@
         <div class="expand">
             <button onclick="destroy()">X</button>
         </div>
-
+        <footer>
+            <p>Copyright © 2023 Gallery</p>
+            <p>Contact info: <br>seanpayne479@gmail.com</p>
+        </footer>
+    </div>
 </body>
 
 
